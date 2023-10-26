@@ -12,4 +12,6 @@ public class QuoteRequest {
     public Delivery delivery;
     public List<Freight> freight;
     public String pickupReadyDate;
+    public Integer declaredFreightValue;
+    public Boolean applyAvailableCredits;
 }
