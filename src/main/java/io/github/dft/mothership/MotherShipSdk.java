@@ -15,8 +15,8 @@ import static io.github.dft.mothership.constantcode.ConstantCodes.*;
 public class MotherShipSdk {
 
     protected HttpClient client;
-    protected AccessCredential accessCredential;
     private ObjectMapper objectMapper;
+    protected AccessCredential accessCredential;
 
     public MotherShipSdk(AccessCredential accessCredential) {
         client = HttpClient.newHttpClient();
