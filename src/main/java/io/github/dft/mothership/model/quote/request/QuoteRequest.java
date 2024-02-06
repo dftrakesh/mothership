@@ -8,10 +8,11 @@ import java.util.List;
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class QuoteRequest {
-    public Pickup pickup;
-    public Delivery delivery;
-    public List<Freight> freight;
-    public String pickupReadyDate;
-    public Integer declaredFreightValue;
-    public Boolean applyAvailableCredits;
+    private Pickup pickup;
+    private Delivery delivery;
+    private List<Freight> freight;
+    private String pickupReadyDate;
+    private Integer declaredFreightValue;
+    private Boolean applyAvailableCredits;
+    private Integer rateResponseTimeoutMs;
 }
