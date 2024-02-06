@@ -8,11 +8,11 @@ import lombok.Data;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Freight {
-    public String type;
-    public Integer width;
-    public Integer weight;
-    public Integer length;
-    public Integer height;
-    public Integer quantity;
-    public String description;
+    private String type;
+    private Integer width;
+    private Integer weight;
+    private Integer length;
+    private Integer height;
+    private Integer quantity;
+    private String description;
 }
