@@ -12,11 +12,11 @@ import java.util.List;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Data {
-    public String id;
-    public Pickup pickup;
-    public Delivery delivery;
-    public Metadata metadata;
-    public List<Rate> rates;
-    public List<Freight> freight;
-    public String expiresAt;
+    private String id;
+    private Pickup pickup;
+    private Delivery delivery;
+    private Metadata metadata;
+    private List<Rate> rates;
+    private List<Freight> freight;
+    private String expiresAt;
 }

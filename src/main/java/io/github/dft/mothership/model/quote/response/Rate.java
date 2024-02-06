@@ -10,14 +10,14 @@ import java.util.List;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Rate {
-    public String id;
-    public String provider;
-    public Double price;
-    public Double creditsApplied;
-    public Truck truck;
-    public TransitDays transitDays;
-    public List<String> services;
-    public List<String> warnings;
-    public String estimatedPickupDate;
-    public String estimatedDeliveryDate;
+    private String id;
+    private String provider;
+    private Double price;
+    private Double creditsApplied;
+    private Truck truck;
+    private TransitDays transitDays;
+    private List<String> services;
+    private List<String> warnings;
+    private String estimatedPickupDate;
+    private String estimatedDeliveryDate;
 }

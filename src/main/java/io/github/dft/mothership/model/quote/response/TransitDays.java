@@ -8,6 +8,6 @@ import lombok.Data;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class TransitDays {
-    public Double minimum;
-    public Double maximum;
+    private Double minimum;
+    private Double maximum;
 }

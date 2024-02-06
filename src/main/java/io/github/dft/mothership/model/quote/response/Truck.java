@@ -8,6 +8,6 @@ import lombok.Data;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Truck {
-    public String equipment;
-    public String specialty;
+    private String equipment;
+    private String specialty;
 }

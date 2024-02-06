@@ -10,15 +10,15 @@ import java.util.List;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Pickup {
-    public String name;
-    public String zip;
-    public String city;
-    public String state;
-    public String street;
-    public Address address;
-    public String openTime;
-    public String closeTime;
-    public String phoneNumber;
-    public List<String> emails;
-    public List<String> accessorials;
+    private String name;
+    private String zip;
+    private String city;
+    private String state;
+    private String street;
+    private Address address;
+    private String openTime;
+    private String closeTime;
+    private String phoneNumber;
+    private List<String> emails;
+    private List<String> accessorials;
 }
